@@ -1,5 +1,5 @@
 //
-//  FirstPageInteractor.swift
+//  RootInteractor.swift
 //  ExampleRIBs
 //
 //  Created by Jongho Lee on 2021/04/12.
@@ -8,27 +8,27 @@
 import RIBs
 import RxSwift
 
-protocol FirstPageRouting: ViewableRouting {
+protocol RootRouting: ViewableRouting {
     // TODO: Declare methods the interactor can invoke to manage sub-tree via the router.
 }
 
-protocol FirstPagePresentable: Presentable {
-    var listener: FirstPagePresentableListener? { get set }
+protocol RootPresentable: Presentable {
+    var listener: RootPresentableListener? { get set }
     // TODO: Declare methods the interactor can invoke the presenter to present data.
 }
 
-protocol FirstPageListener: class {
+protocol RootListener: class {
     // TODO: Declare methods the interactor can invoke to communicate with other RIBs.
 }
 
-final class FirstPageInteractor: PresentableInteractor<FirstPagePresentable>, FirstPageInteractable, FirstPagePresentableListener {
+final class RootInteractor: PresentableInteractor<RootPresentable>, RootInteractable, RootPresentableListener {
 
-    weak var router: FirstPageRouting?
-    weak var listener: FirstPageListener?
+    weak var router: RootRouting?
+    weak var listener: RootListener?
 
     // TODO: Add additional dependencies to constructor. Do not perform any logic
     // in constructor.
-    override init(presenter: FirstPagePresentable) {
+    override init(presenter: RootPresentable) {
         super.init(presenter: presenter)
         presenter.listener = self
     }

@@ -17,11 +17,12 @@
 		43758136262407E00036C6DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43758134262407E00036C6DF /* LaunchScreen.storyboard */; };
 		43758141262407E10036C6DF /* ExampleRIBsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43758140262407E10036C6DF /* ExampleRIBsTests.swift */; };
 		4375814C262407E10036C6DF /* ExampleRIBsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4375814B262407E10036C6DF /* ExampleRIBsUITests.swift */; };
-		43758177262412520036C6DF /* FirstPageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43758172262412520036C6DF /* FirstPageRouter.swift */; };
-		43758178262412520036C6DF /* FirstPageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43758173262412520036C6DF /* FirstPageViewController.storyboard */; };
-		43758179262412520036C6DF /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43758174262412520036C6DF /* FirstPageViewController.swift */; };
-		4375817A262412520036C6DF /* FirstPageBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43758175262412520036C6DF /* FirstPageBuilder.swift */; };
-		4375817B262412520036C6DF /* FirstPageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43758176262412520036C6DF /* FirstPageInteractor.swift */; };
+		437581DB26241DAC0036C6DF /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437581D626241DAC0036C6DF /* RootRouter.swift */; };
+		437581DC26241DAC0036C6DF /* RootViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437581D726241DAC0036C6DF /* RootViewController.storyboard */; };
+		437581DD26241DAC0036C6DF /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437581D826241DAC0036C6DF /* RootViewController.swift */; };
+		437581DE26241DAC0036C6DF /* RootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437581D926241DAC0036C6DF /* RootBuilder.swift */; };
+		437581DF26241DAC0036C6DF /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437581DA26241DAC0036C6DF /* RootInteractor.swift */; };
+		437581E426241E7D0036C6DF /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437581E326241E7D0036C6DF /* AppComponent.swift */; };
 		65AAFB93F58F61FB5ACFE028 /* Pods_ExampleRIBsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBA6FA280E24BF6B03A162F /* Pods_ExampleRIBsTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,11 +61,12 @@
 		43758147262407E10036C6DF /* ExampleRIBsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleRIBsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4375814B262407E10036C6DF /* ExampleRIBsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleRIBsUITests.swift; sourceTree = "<group>"; };
 		4375814D262407E10036C6DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43758172262412520036C6DF /* FirstPageRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageRouter.swift; sourceTree = "<group>"; };
-		43758173262412520036C6DF /* FirstPageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FirstPageViewController.storyboard; sourceTree = "<group>"; };
-		43758174262412520036C6DF /* FirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
-		43758175262412520036C6DF /* FirstPageBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageBuilder.swift; sourceTree = "<group>"; };
-		43758176262412520036C6DF /* FirstPageInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageInteractor.swift; sourceTree = "<group>"; };
+		437581D626241DAC0036C6DF /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		437581D726241DAC0036C6DF /* RootViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RootViewController.storyboard; sourceTree = "<group>"; };
+		437581D826241DAC0036C6DF /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		437581D926241DAC0036C6DF /* RootBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootBuilder.swift; sourceTree = "<group>"; };
+		437581DA26241DAC0036C6DF /* RootInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
+		437581E326241E7D0036C6DF /* AppComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComponent.swift; sourceTree = "<group>"; };
 		71A5962FF06064757EE73A22 /* Pods_ExampleRIBs_ExampleRIBsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleRIBs_ExampleRIBsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7861C403F9E4FD5D5703B039 /* Pods-ExampleRIBsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleRIBsTests.debug.xcconfig"; path = "Target Support Files/Pods-ExampleRIBsTests/Pods-ExampleRIBsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		935462E82C67855AC53B9DE5 /* Pods-ExampleRIBs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleRIBs.release.xcconfig"; path = "Target Support Files/Pods-ExampleRIBs/Pods-ExampleRIBs.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,7 +128,7 @@
 		43758125262407DE0036C6DF /* ExampleRIBs */ = {
 			isa = PBXGroup;
 			children = (
-				4375817F262412570036C6DF /* FirstPage */,
+				437581C226241D790036C6DF /* Root */,
 				43758126262407DE0036C6DF /* AppDelegate.swift */,
 				4375812A262407DE0036C6DF /* ViewController.swift */,
 				4375812C262407DE0036C6DF /* Main.storyboard */,
@@ -134,6 +136,7 @@
 				43758134262407E00036C6DF /* LaunchScreen.storyboard */,
 				43758137262407E00036C6DF /* Info.plist */,
 				4375812F262407DE0036C6DF /* ExampleRIBs.xcdatamodeld */,
+				437581E326241E7D0036C6DF /* AppComponent.swift */,
 			);
 			path = ExampleRIBs;
 			sourceTree = "<group>";
@@ -156,16 +159,16 @@
 			path = ExampleRIBsUITests;
 			sourceTree = "<group>";
 		};
-		4375817F262412570036C6DF /* FirstPage */ = {
+		437581C226241D790036C6DF /* Root */ = {
 			isa = PBXGroup;
 			children = (
-				43758172262412520036C6DF /* FirstPageRouter.swift */,
-				43758173262412520036C6DF /* FirstPageViewController.storyboard */,
-				43758174262412520036C6DF /* FirstPageViewController.swift */,
-				43758175262412520036C6DF /* FirstPageBuilder.swift */,
-				43758176262412520036C6DF /* FirstPageInteractor.swift */,
+				437581D626241DAC0036C6DF /* RootRouter.swift */,
+				437581D726241DAC0036C6DF /* RootViewController.storyboard */,
+				437581D826241DAC0036C6DF /* RootViewController.swift */,
+				437581D926241DAC0036C6DF /* RootBuilder.swift */,
+				437581DA26241DAC0036C6DF /* RootInteractor.swift */,
 			);
-			path = FirstPage;
+			path = Root;
 			sourceTree = "<group>";
 		};
 		CAF1A93CD5B8C68B3507F922 /* Frameworks */ = {
@@ -300,9 +303,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				43758136262407E00036C6DF /* LaunchScreen.storyboard in Resources */,
-				43758178262412520036C6DF /* FirstPageViewController.storyboard in Resources */,
 				43758133262407E00036C6DF /* Assets.xcassets in Resources */,
 				4375812E262407DE0036C6DF /* Main.storyboard in Resources */,
+				437581DC26241DAC0036C6DF /* RootViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,13 +433,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43758179262412520036C6DF /* FirstPageViewController.swift in Sources */,
-				43758177262412520036C6DF /* FirstPageRouter.swift in Sources */,
+				437581DD26241DAC0036C6DF /* RootViewController.swift in Sources */,
+				437581E426241E7D0036C6DF /* AppComponent.swift in Sources */,
+				437581DB26241DAC0036C6DF /* RootRouter.swift in Sources */,
+				437581DF26241DAC0036C6DF /* RootInteractor.swift in Sources */,
 				43758131262407DE0036C6DF /* ExampleRIBs.xcdatamodeld in Sources */,
 				4375812B262407DE0036C6DF /* ViewController.swift in Sources */,
-				4375817B262412520036C6DF /* FirstPageInteractor.swift in Sources */,
 				43758127262407DE0036C6DF /* AppDelegate.swift in Sources */,
-				4375817A262412520036C6DF /* FirstPageBuilder.swift in Sources */,
+				437581DE26241DAC0036C6DF /* RootBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
